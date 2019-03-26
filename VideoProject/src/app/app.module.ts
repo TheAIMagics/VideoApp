@@ -34,7 +34,7 @@ import { appRoutes } from '../routes';
     BrowserModule,
     FormsModule,
     RouterModule.forRoot(appRoutes),
-   // AngularFireModule.initializeApp(environment.firebase),
+    AngularFireModule.initializeApp(environment.firebase),
     AngularFireDatabaseModule,
     AngularFireAuthModule
   ],
