@@ -7,7 +7,7 @@ import { FirebaseApp } from 'angularfire2'
 import 'firebase/storage';
 import { GalleryImage } from '../models/GalleryImage.model'
 import * as firebase from 'firebase';
-import { Observable } from '../../../node_modules/rxjs';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
