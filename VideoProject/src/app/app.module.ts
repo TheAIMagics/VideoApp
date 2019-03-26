@@ -21,6 +21,7 @@ import { UploadService } from './services/upload.service'
 
 import { environment } from '../environments/environment'
 import { appRoutes } from '../routes';
+
 @NgModule({
   declarations: [
     AppComponent,
